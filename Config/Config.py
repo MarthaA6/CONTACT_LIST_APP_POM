@@ -6,13 +6,13 @@ class ConfigLoginNegative:
 
 class ConfigLogin:
     BaseUrl = "https://thinking-tester-contact-list.herokuapp.com/"
-    EMAIL_ADDRESS = "martha@gmail.com"
+    EMAIL_ADDRESS = "marthaasoanya6@gmail.com"
     PASSWORD = "12345asd"
 
 
 class ConfigAddContact1:
     FIRST_NAME = "hello"
-    LAST_NAME = "11"
+    LAST_NAME = "1"
     DATE_OF_BIRTH = "2024-10-11"
     EMAIL_ADDRESS = "test123@gmail.com"
     PHONE_NUMBER = "1234567890"
@@ -22,12 +22,11 @@ class ConfigAddContact1:
     STATE_PROVINCE = "Lagos"
     POSTAL_CODE = "12345"
     COUNTRY = "Nigeria"
-    PASSWORD = "12345asd"
 
 
 class ConfigAddContact2:
     FIRST_NAME = "hii"
-    LAST_NAME = "22"
+    LAST_NAME = "2"
     DATE_OF_BIRTH = "2024-10-11"
     EMAIL_ADDRESS = "test123@gmail.com"
     PHONE_NUMBER = "1234567890"
@@ -37,7 +36,6 @@ class ConfigAddContact2:
     STATE_PROVINCE = "Lagos"
     POSTAL_CODE = "12345"
     COUNTRY = "Nigeria"
-    PASSWORD = "12345asd"
 
 
 class ConfigAddContact3:
@@ -52,7 +50,6 @@ class ConfigAddContact3:
     STATE_PROVINCE = "Lagos"
     POSTAL_CODE = "12345"
     COUNTRY = "Nigeria"
-    PASSWORD = "12345asd"
 
 
 class ConfigAddContact4:
@@ -67,7 +64,6 @@ class ConfigAddContact4:
     STATE_PROVINCE = "Lagos"
     POSTAL_CODE = "12345"
     COUNTRY = "Nigeria"
-    PASSWORD = "12345asd"
 
 
 class ConfigAddContact5:
@@ -82,7 +78,6 @@ class ConfigAddContact5:
     STATE_PROVINCE = "Lagos"
     POSTAL_CODE = "12345"
     COUNTRY = "Nigeria"
-    PASSWORD = "12345asd"
 
 
 class ConfigAddContact6:
@@ -97,7 +92,6 @@ class ConfigAddContact6:
     STATE_PROVINCE = "Lagos"
     POSTAL_CODE = "12345"
     COUNTRY = "Nigeria"
-    PASSWORD = "12345asd"
 
 
 class ConfigAddContact7:
@@ -112,7 +106,6 @@ class ConfigAddContact7:
     STATE_PROVINCE = "Lagos"
     POSTAL_CODE = "12345"
     COUNTRY = "Nigeria"
-    PASSWORD = "12345asd"
 
 
 class ConfigAddContact8:
@@ -127,7 +120,6 @@ class ConfigAddContact8:
     STATE_PROVINCE = "Lagos"
     POSTAL_CODE = "12345"
     COUNTRY = "Nigeria"
-    PASSWORD = "12345asd"
 
 
 class ConfigAddContact9:
@@ -142,7 +134,6 @@ class ConfigAddContact9:
     STATE_PROVINCE = "Lagos"
     POSTAL_CODE = "12345"
     COUNTRY = "Nigeria"
-    PASSWORD = "12345asd"
 
 
 class ConfigAddContact10:
@@ -157,4 +148,3 @@ class ConfigAddContact10:
     STATE_PROVINCE = "Lagos"
     POSTAL_CODE = "12345"
     COUNTRY = "Nigeria"
-    PASSWORD = "12345asd"
