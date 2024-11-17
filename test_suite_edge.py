@@ -7,7 +7,7 @@ from Config.Config import ConfigAddContact5, ConfigAddContact6, ConfigAddContact
     ConfigAddContact4, ConfigAddContact3, ConfigAddContact2, ConfigLogin, ConfigAddContact10, \
     ConfigAddContact8, ConfigLoginNegative
 
-from Login_Page.LoginPage import LoginPage, LoginPageNegative, DeleteLoginPage
+from Login_Page.LoginPage import LoginPage
 
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -40,6 +40,7 @@ def driver_setup():
 # ----------------------------------------------------------------------------------------------------------------------
 # NEGATIVE TEST ON THE LOGIN PAGE --------------------------------------------------------------------------------------
 
+
 @pytest.fixture(scope="session")
 def login(driver_setup):
     driver = driver_setup
@@ -49,14 +50,14 @@ def login(driver_setup):
 
 
 def test_login_page_for_negative_contact_list_app(login):
-    login_fail = LoginPageNegative(login.driver)
+    login_fail = LoginPage(login.driver)
     login_fail.enter_email_address_fail(ConfigLoginNegative.EMAIL_ADDRESS_FAIL)
     login_fail.enter_password_fail(ConfigLoginNegative.PASSWORD_FAIL)
     login_fail.click_submit_button_fail()
 
 
 def test_delete_login_page_contact_list_app(login):
-    delete_login = DeleteLoginPage(login.driver)
+    delete_login = LoginPage(login.driver)
     delete_login.delete_failed_email_address(ConfigLoginNegative.EMAIL_ADDRESS_FAIL)
     delete_login.delete_failed_password(ConfigLoginNegative.PASSWORD_FAIL)
 

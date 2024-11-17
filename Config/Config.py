@@ -8,6 +8,8 @@ class ConfigLogin:
     BaseUrl = "https://thinking-tester-contact-list.herokuapp.com/"
     EMAIL_ADDRESS = "marthaasoanya6@gmail.com"
     PASSWORD = "12345asd"
+    EMAIL_ADDRESS_FAIL = "martha12345"
+    PASSWORD_FAIL = "asdfghjkl123"
 
 
 class ConfigAddContact1:
